@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project includes various resources and code samples related to DrRacket programming, particularly focused on past exam papers and important documents. The repository is structured to provide easy access to all the necessary materials for study and reference.
+This repository includes various resources and code samples related to DrRacket programming, particularly focused on past exam papers and important documents. The repository is structured to provide easy access to all the necessary materials for study and reference.
 
 ## Folder Structure
 
