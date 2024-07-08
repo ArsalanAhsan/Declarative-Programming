@@ -1,0 +1,16 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname |ppt3 Task2|) (read-case-sensitive #t) (teachpacks ((lib "universe.rkt" "teachpack" "2htdp") (lib "image.rkt" "teachpack" "2htdp"))) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ((lib "universe.rkt" "teachpack" "2htdp") (lib "image.rkt" "teachpack" "2htdp")) #f)))
+#| Task 2
+(define (g x y) (* (f x) (f y)))
+(define (f x) (g x 1))
+(define (h x) (/ x 2))
+(h 6)
+a) 12
+b) 3
+c) A mistake
+|#
+(define (g x y) (* (f x) (f y)))
+(define (f x) (g x 1))
+(define (h x) (/ x 2))
+(h 6)
